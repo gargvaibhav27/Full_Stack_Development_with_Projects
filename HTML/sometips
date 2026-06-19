@@ -1,0 +1,6 @@
+npm create vite@latest foldername
+
+ls : for all foldername
+
+npm install:  for all packeges 
+npm run dev : for running link
