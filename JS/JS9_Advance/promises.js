@@ -26,3 +26,4 @@ fetchData()
   .catch((error) => {
     console.log(error);
   });
+// here we are using the then method to handle the fulfilled state of the promise and the catch method to handle the rejected state of the promise. The then method takes a callback function as an argument which will be executed when the promise is fulfilled and the catch method takes a callback function as an argument which will be executed when the promise is rejected.
