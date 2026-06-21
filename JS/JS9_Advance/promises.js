@@ -22,6 +22,10 @@ function fetchData() {
 fetchData()
   .then((data) => {
     console.log(data);
+    return data.toUpperCase(); // we can also return a value from the then method which will be passed to the next then method in the chain.
+  })
+  .then((data) => {
+    console.log(data);
   })
   .catch((error) => {
     console.log(error);
