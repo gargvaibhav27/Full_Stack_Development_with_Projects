@@ -9,5 +9,5 @@ import {add, subtract} from "./mathOperationsM.js";
 console.log(multiply(2,2));
 console.log(add(2,4));
 console.log(subtract(4,2));
-
+console.log(add(10,20));
 
