@@ -40,17 +40,16 @@ document.addEventListener("DOMContentLoaded", () => {
     console.log(data);
     const { name, main, weather } = data;
     cityNameDisplay.textContent = name;
-    temperatureDisplay.textContent = `Temperature: ${main.temp}`;
-    descriptionDisplay.textContent = `Weather: ${weather[0].description}`;
+    temperatureDisplay.textContent = `Temperature : ${main.temp}`;
+    descriptionDisplay.textContent = `Weather : ${weather[0].description}`;
 
-    // unlock the display
+    //unlock the display
     weatherInfo.classList.remove("hidden");
     errorMessage.classList.add("hidden");
-    
   }
 
   function showError() {
-    weatherInfo.classList.remove("hidden");
-    errorMessage.classList.add("hidden");
+    weatherInfo.classList.add("hidden");
+    errorMessage.classList.remove("hidden");
   }
 });
