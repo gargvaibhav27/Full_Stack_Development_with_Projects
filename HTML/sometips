@@ -1,6 +1,16 @@
 npm create vite@latest foldername
 
 ls : for all foldername
-
+npm i : for installing dependencies
+for checking dependencies use 
 npm install:  for all packeges 
+
+node -v : for checking node version
+
+npx create-react-app foldername : This command is used to create a new React application using Create React App. You will be prompted to enter the folder name where you want to create the project.
+
+npm run start : for running the React application
+
+npm create vite@latest foldername : This command is used to create a new Vite project. You will be prompted to enter the folder name where you want to create the project.
+
 npm run dev : for running link
